@@ -56,9 +56,6 @@ importers:
       '@iconify-json/fa7-solid':
         specifier: ^1.2.4
         version: 1.2.4
-      '@iconify-json/material-symbols':
-        specifier: ^1.2.79
-        version: 1.2.79
       '@iconify-json/mingcute':
         specifier: ^1.2.7
         version: 1.2.7
@@ -186,6 +183,9 @@ importers:
       '@biomejs/biome':
         specifier: 2.5.0
         version: 2.5.0
+      '@iconify-json/material-symbols':
+        specifier: ^1.2.79
+        version: 1.2.79
       '@iconify-json/mdi':
         specifier: ^1.2.3
         version: 1.2.3
