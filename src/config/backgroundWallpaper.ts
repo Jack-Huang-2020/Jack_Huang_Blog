@@ -43,34 +43,31 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/Main.png",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
+			"assets/images/DesktopWallpaper/Main.png",
 		],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组）
 		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
-		// playerUrl: "/assets/videos/firefly.mp4",
 		playerUrl: [
-			"https://www.image2url.com/r2/default/videos/1781765166391-f2ba6648-1597-40e0-9f0a-6768ae39e574.mp4",
+			"/assets/videos/【原神生日会】提瓦特民谣 - 001 - 【原神生日会】提瓦特民谣.mp4",
+			"/assets/videos/《原神》五周年主题曲《回家的路》 - 001 - 中-《回家的路》.mp4",
+			"/assets/videos/「提瓦特民谣」星空版~空带着派蒙、可莉、小艾咪也加入了合唱！ - 001 - 「提瓦特民谣」星空版~空带着派蒙、可莉、小艾咪也加入了合唱！.mp4",
+			"/assets/videos/【原神新春会】下一个远方.mp4",
+			"/assets/videos/【原神新春会】我不曾忘记 | 致旅行中的你.mp4",
+			"/assets/videos/【原神生日会】别让我担心.mp4",
 		],
+		// playerUrl: [
+		//	"https://www.image2url.com/r2/default/videos/1781765166391-f2ba6648-1597-40e0-9f0a-6768ae39e574.mp4",
+		// ],
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
-		// 壁纸遮罩暗度，让横幅文字显示更清晰，0-1之间，值越大越暗
+		// 横幅文字遮罩暗度，0-1之间，值越大越暗
 		dimOpacity: 0.2,
 		// 多视频播放模式："order" 顺序循环，"random" 随机切换（仅当 playerUrl 为数组时生效）
 		playerMode: "random",
@@ -81,17 +78,16 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Lovely 𝓝𝓪𝓱𝓲𝓭𝓪!",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"欲买桂花同载酒，终不似，少年游",
+				"竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生",
+				"回首向来萧瑟处，归去，也无风雨也无晴",
+				"若无来生，便以今世，生死相许",
+				"我会看见，飞萤之火自无梦的长夜亮起，绽放在终竟的明天",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -111,7 +107,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 导航栏配置
 		navbar: {
 			// 导航栏透明模式："semi" 半透明，"full" 完全透明，"semifull" 动态透明
-			transparentMode: "semi",
+			transparentMode: "semifull",
 			// 是否开启毛玻璃模糊效果，开启可能会影响页面性能，如果不开启则是半透明，请根据自己的喜好开启
 			enableBlur: true,
 			// 毛玻璃模糊度
@@ -144,7 +140,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 壁纸轮播配置，横幅壁纸和全屏壁纸共享，仅在配置多张图片时生效
 		carousel: {
 			// 是否启用壁纸轮播；关闭时保持每次刷新随机显示一张
-			enable: false,
+			enable: true,
 			// 轮播切换间隔（毫秒）
 			interval: 5000,
 			// 过渡效果: 'fade' 渐变 | 'zoom' 缩放 | 'slide' 滑动 | 'kenburns' 旋转木马
@@ -158,7 +154,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 图片位置
 		// 支持所有CSS object-position值，如: 'top', 'center', 'bottom', 'left top', 'right bottom', '25% 75%', '10px 20px'..
 		// 如果不知道怎么配置百分百之类的配置，推荐直接使用：'center'居中，'top'顶部居中，'bottom' 底部居中，'left'左侧居中，'right'右侧居中
-		position: "0% 20%",
+		position: "center",
 	},
 	// 全屏透明覆盖模式特有配置
 	overlay: {

@@ -6,13 +6,13 @@ export const profileConfig: ProfileConfig = {
 	// 1. public 目录（以 "/" 开头，不优化）："/assets/images/avatar.webp"
 	// 2. src 目录（不以 "/" 开头，自动优化但会增加构建时间，推荐）："assets/images/avatar.webp"
 	// 3. 远程 URL："https://example.com/avatar.jpg"
-	avatar: "assets/images/avatar.avif",
+	avatar: "assets/images/avatar.png",
 
 	// 名字
-	name: "Firefly",
+	name: "𝚒𝚖𝚙𝚘𝚛𝚝 { 𝘑𝘢𝘤𝘬 𝘏𝘶𝘢𝘯𝘨 } 𝚏𝚛𝚘𝚖 '☘️';",
 
 	// 个人签名
-	bio: "Hello, I'm Firefly.",
+	bio: "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -22,28 +22,46 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
-			name: "qq",
+			name: "Telegram",
+			icon: "fa7-brands:telegram",
+			url: "https://t.me/Jack_Huang_114514",
+			showName: true,
+		},
+		{
+			name: "WeChat",
+			icon: "fa7-brands:weixin",
+			url: "/assets/images/personal/wechat.png",
+			showName: true,
+		},
+		{
+			name: "QQ",
 			icon: "fa7-brands:qq",
-			url: "https://qm.qq.com/q/ZGsFa8qX2G",
-			showName: false,
+			url: "https://qm.qq.com/q/UOhNYtnOSe",
+			showName: true,
+		},
+		{
+			name: "Outlook",
+			icon: "fa7-solid:envelope",
+			url: "mailto:Jack-Huang-2020@outlook.com",
+			showName: true,
+		},
+		{
+			name: "Gmail",
+			icon: "fa7-solid:envelope",
+			url: "mailto:Jack.Huang.20100704@gmail.com",
+			showName: true,
 		},
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/CuteLeaf",
-			showName: false,
-		},
-		{
-			name: "Email",
-			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
-			showName: false,
+			url: "https://github.com/Jack-Huang-2020",
+			showName: true,
 		},
 		{
 			name: "RSS",
-			icon: "fa7-solid:rss",
+			icon: "material-symbols:rss-feed-rounded",
 			url: "/rss/",
-			showName: false,
+			showName: true,
 		},
 	],
 };
