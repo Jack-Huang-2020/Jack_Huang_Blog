@@ -7,7 +7,7 @@ description: ୧⍤⃝ NewMiko Document ☃
 tags: [NewMiko]
 category: 教程
 licenseName: CC BY-NC-SA 4.0
-draft: true
+draft: false
 image: Miko-Doc.assets/Nahida.png
 slug: Miko-Doc
 ---
