@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "爱你 妲妲",
 
 	// 站点 URL
-	site_url: "http://localhost:4321",
+	site_url: "https://jack-huang-2020.github.io/Blog/",
 
 	// 站点描述
 	description:
