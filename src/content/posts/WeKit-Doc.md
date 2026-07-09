@@ -218,7 +218,7 @@ slug: WeKit-Doc
 
 5. 页面滑到底 戳 `wekit-apk` 旁边的下载按钮
 
-### Step 2️⃣ 安装  NewMiko 并在 LSPosed 里激活  NewMiko
+### Step 2️⃣ 安装  WeKit 并在 LSPosed 里激活  WeKit
 
 1. 安装
 1. [grid]
