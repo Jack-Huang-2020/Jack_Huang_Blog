@@ -175,7 +175,7 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 	// 响应式配置
 	responsive: {
 		// 在移动端隐藏
-		hideOnMobile: false,
+		hideOnMobile: true,
 		// 移动端断点
 		mobileBreakpoint: 768,
 	},
