@@ -169,7 +169,9 @@ slug: WeKit-Doc
 >
 > 自 2024年4月26日 LSPosed 恢复更新起 LSPosed 不再开源并且进行内部测试制 并且不再分发于 Github 上 用户必须进入 **https://t.me/LSPosed 群组** 获取稳定版更新 而想要内测版用户则需要申请进入 `LSPosed Internal Test` 内测群组 详情见 ⬇️
 >    
-> ![](../../../../Desktop/%E5%86%85%E6%B5%8B%E5%BC%80%E5%A7%8B.webp)在此加入 LSPosed 频道 ⬇️
+> ![内测开始](WeKit-Doc.assets/%E5%86%85%E6%B5%8B%E5%BC%80%E5%A7%8B.webp)
+> 
+> 在此加入 LSPosed 频道 ⬇️
 >    
 > [LSPosed](https://t.me/LSPosed)
 >                                 
