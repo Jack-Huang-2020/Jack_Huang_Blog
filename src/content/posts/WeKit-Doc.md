@@ -8,7 +8,7 @@ tags: [微信模块]
 category: 教程
 licenseName: CC BY-NC-SA 4.0
 draft: false
-image: Miko-Doc.assets/Nahida.png
+image: WeKit-Doc.assets/Wallpaper.jpg
 slug: WeKit-Doc
 ---
 
@@ -169,22 +169,20 @@ slug: WeKit-Doc
 >
 > 自 2024年4月26日 LSPosed 恢复更新起 LSPosed 不再开源并且进行内部测试制 并且不再分发于 Github 上 用户必须进入 **https://t.me/LSPosed 群组** 获取稳定版更新 而想要内测版用户则需要申请进入 `LSPosed Internal Test` 内测群组 详情见 ⬇️
 >    
-> ![内测开始](WeKit-Doc.assets/%E5%86%85%E6%B5%8B%E5%BC%80%E5%A7%8B.webp)
+> ![](../../../../Desktop/%E5%86%85%E6%B5%8B%E5%BC%80%E5%A7%8B.webp)在此加入 LSPosed 频道 ⬇️
 >    
-> - 在此加入 LSPosed 频道 ⬇️
->                                 
 > [LSPosed](https://t.me/LSPosed)
 >                                 
 > ![@lsposed](Miko-Doc.assets/@lsposed.jpg)
 >                                 
 > 内测群进群方式
->                                                 
+>                                 
 > <iframe src="https://t.me/LSPosed/287" width="auto" height="auto"></iframe>
->
-> - 🔗 在此 自己想办法解决吧
 >                                                 
+> - 🔗 在此 自己想办法解决吧
+>
 > ```fish
-> echo aHR0cHM6Ly90Lm1lLytOZkh6dGZ5TkJaczJaRGxs | base64 -d
+>                                                 echo aHR0cHM6Ly90Lm1lLytOZkh6dGZ5TkJaczJaRGxs | base64 -d
 > ```
 
 > [!IMPORTANT]
@@ -282,3 +280,4 @@ slug: WeKit-Doc
 [FingerprintPay](https://github.com/eritpchy/FingerprintPay)
 
 [WADN](https://github.com/Ujhhgtg/wauxv_deobf_new) [WAD](https://github.com/Ujhhgtg/wauxv_deobf)
+
