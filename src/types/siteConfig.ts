@@ -117,26 +117,6 @@ export type SiteConfig = {
 			showWords?: boolean; // 是否显示字数
 			showReadingTime?: boolean; // 是否显示阅读时间
 		};
-		allowSwitch: boolean; // 是否允许用户切换布局
-		descriptionLines?: number; // 文章简介显示行数，设为 0 则不截断，默认 2
-		showStatsIcons?: boolean; // 文章卡片底部统计是否显示图标
-		// 标签显示位置："meta"=跟随元数据行（默认），"bottom"=卡片底部独立一行（将替换stats显示，二者只能选其一）
-		tagsPosition?: "meta" | "bottom";
-		// PostMeta 元数据显示控制
-		meta?: {
-			showPublished?: boolean; // 是否显示发布日期
-			showCategory?: boolean; // 是否显示分类
-			showTags?: boolean; // 是否显示标签
-			tagCount?: number; // 标签数量
-			showWords?: boolean; // 是否显示字数
-			showReadingTime?: boolean; // 是否显示阅读时间
-		};
-		// PostStats 统计信息显示控制
-		stats?: {
-			showPublished?: boolean; // 是否显示发布日期
-			showWords?: boolean; // 是否显示字数
-			showReadingTime?: boolean; // 是否显示阅读时间
-		};
 		grid: {
 			// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
 			// 是否开启瀑布流布局
