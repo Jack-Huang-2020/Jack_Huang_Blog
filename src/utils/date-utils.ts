@@ -59,7 +59,7 @@ export function formatDateI18nWithTime(dateInput: Date | string): string {
 	return formatDateI18n(dateInput, true);
 }
 
-// 统一格式为 YYYY-MM-DD HH:mm，支持站点时区
+// 统一格式为 YYYY-MM-DD HH:mm:ss，支持站点时区
 export function formatDateTimeToYYYYMMDDHHmm(dateInput: Date | string): string {
 	const date = typeof dateInput === "string" ? new Date(dateInput) : dateInput;
 
@@ -69,6 +69,7 @@ export function formatDateTimeToYYYYMMDDHHmm(dateInput: Date | string): string {
 		day: "2-digit",
 		hour: "2-digit",
 		minute: "2-digit",
+		second: "2-digit",
 		hour12: false,
 	};
 
@@ -80,5 +81,5 @@ export function formatDateTimeToYYYYMMDDHHmm(dateInput: Date | string): string {
 	const get = (type: Intl.DateTimeFormatPartTypes) =>
 		parts.find((p) => p.type === type)?.value || "";
 
-	return `${get("year")}-${get("month")}-${get("day")} ${get("hour")}:${get("minute")}`;
+	return `${get("year")}-${get("month")}-${get("day")} ${get("hour")}:${get("minute")}:${get("second")}`;
 }
