@@ -2,8 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ JH ]
   workflow_dispatch:
+  schedule:
+    - cron: '0 16 * * *'
 
 # Pages 部署需要的权限
 permissions:
