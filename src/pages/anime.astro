@@ -8,7 +8,7 @@ import I18nKey from "@/i18n/i18nKey";
 import { i18n } from "@/i18n/translation";
 import MainGridLayout from "@/layouts/MainGridLayout.astro";
 import type { StandardizedAnime } from "@/types/anime";
-import { formatDateI18nWithTime } from "@/utils/date-utils";
+import { formatDateTimeToYYYYMMDDHHmm } from "@/utils/date-utils";
 
 // 检查页面是否启用
 if (!siteConfig.pages.anime) {
@@ -16,7 +16,7 @@ if (!siteConfig.pages.anime) {
 }
 
 // 获取构建时间
-const buildTime = formatDateI18nWithTime(new Date());
+const buildTime = formatDateTimeToYYYYMMDDHHmm(new Date());
 
 // 追番配置
 const animeConfig = siteConfig.anime;
