@@ -7,7 +7,7 @@ description: Stop Developing on s**tly Windows
 tags: [杂谈]
 category: 杂谈
 draft: false
-image: WeKit-Doc.assets/Wallpaper.jpg
+image: Stop-Working-on-Windows!.assets/fuck-microsoft.gif
 slug: Stop-Developing-on-Windows
 author: kokic & 𝚒𝚖𝚙𝚘𝚛𝚝 { 𝘑𝘢𝘤𝘬 𝘏𝘶𝘢𝘯𝘨 } 𝚏𝚛𝚘𝚖 '☘️';
 licenseName: CC0
