@@ -7,12 +7,14 @@ description: Stop Developing on s**tly Windows
 tags: [杂谈]
 category: 杂谈
 draft: false
-image: Stop-Working-on-Windows!.assets/fuck-microsoft.gif
+image: Stop-Working-on-Windows!.assets/F**k Microsoft!!.jpg
 slug: Stop-Developing-on-Windows
 author: kokic & 𝚒𝚖𝚙𝚘𝚛𝚝 { 𝘑𝘢𝘤𝘬 𝘏𝘶𝘢𝘯𝘨 } 𝚏𝚛𝚘𝚖 '☘️';
 licenseName: CC0
 sourceLink: https://zhuanlan.fxzhihu.com/p/2024527609388627701
 ---
+
+![F**k Microsoft!](Stop-Working-on-Windows!.assets/fuck-microsoft.gif)
 
 > [!NOTE]
 > 
