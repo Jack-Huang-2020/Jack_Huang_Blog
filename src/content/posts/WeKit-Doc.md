@@ -10,6 +10,7 @@ licenseName: CC BY-NC-SA 4.0
 draft: false
 image: WeKit-Doc.assets/Wallpaper.jpg
 slug: WeKit-Doc
+author: 𝚒𝚖𝚙𝚘𝚛𝚝 { 𝘑𝘢𝘤𝘬 𝘏𝘶𝘢𝘯𝘨 } 𝚏𝚛𝚘𝚖 '☘️';
 ---
 
 > [!TIP]
