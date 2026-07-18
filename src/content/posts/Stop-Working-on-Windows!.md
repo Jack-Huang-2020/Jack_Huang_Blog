@@ -1,7 +1,7 @@
 ---
 title: 停止用 Windows 开发!
 published: 2026-04-06
-updated: 2026-07-17
+updated: 2026-07-18
 pinned: true
 description: Stop Developing on s**tly Windows
 tags: [杂谈]
