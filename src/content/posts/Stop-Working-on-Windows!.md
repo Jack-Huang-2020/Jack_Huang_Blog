@@ -9,7 +9,7 @@ category: 杂谈
 draft: false
 image: WeKit-Doc.assets/Wallpaper.jpg
 slug: Stop-Developing-on-Windows
-author: 𝚒𝚖𝚙𝚘𝚛𝚝 { 𝘑𝘢𝘤𝘬 𝘏𝘶𝘢𝘯𝘨 } 𝚏𝚛𝚘𝚖 '☘️';
+author: kokic & 𝚒𝚖𝚙𝚘𝚛𝚝 { 𝘑𝘢𝘤𝘬 𝘏𝘶𝘢𝘯𝘨 } 𝚏𝚛𝚘𝚖 '☘️';
 licenseName: CC0
 sourceLink: https://zhuanlan.fxzhihu.com/p/2024527609388627701
 ---
