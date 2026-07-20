@@ -4,7 +4,7 @@ published: 2026-04-06
 updated: 2026-07-18
 pinned: true
 description: Stop Developing on s**tly Windows
-tags: [杂谈]
+tags: [杂谈,Windows]
 category: 杂谈
 draft: false
 image: Stop-Working-on-Windows!.assets/F**k Microsoft!!.jpg
